@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Demoblaze Comprehensive Test Suite" verbose="1" parallel="false">
+
+<!-- 20 Smoke Test Cases -->
+<test name="Smoke Test Suite">
+    <classes>
+        <class name="com.demoblaze.tests.SmokeTests"/>
+    </classes>
+</test>
+
+<!-- 20 Product Test Cases -->
+<test name="Product Test Suite (20 Tests)">
+    <classes>
+        <class name="com.demoblaze.tests.ProductTests">
+            <methods>
+                <include name="testAllProductsListed"/>
+                <include name="testSamsungS6Details"/>
+                <include name="testNokiaLumiaDetails"/>
+                <include name="testSonyVaioI5Details"/>
+                <include name="testPriceFormatConsistency"/>
+                <include name="testProductCategoriesFilter"/>
+                <include name="testProductDescriptionExists"/>
+                <include name="testProductImagesDisplayed"/>
+                <include name="testProductSorting"/>
+                <include name="testProductPagination"/>
+                <include name="testProductAvailability"/>
+                <include name="testProductComparison"/>
+                <include name="testProductReviews"/>
+                <include name="testRelatedProducts"/>
+                <include name="testProductSpecifications"/>
+                <include name="testProductShareFeatures"/>
+                <include name="testProductBreadcrumb"/>
+                <include name="testProductPagePerformance"/>
+                <include name="testMultipleProductViews"/>
+                <include name="testProductSuiteCompletion"/>
+            </methods>
+        </class>
+    </classes>
+</test>
+
+<!-- 20 Cart Test Cases -->
+<test name="Cart Test Suite (20 Tests)">
+    <classes>
+        <class name="com.demoblaze.tests.CartTests">
+            <methods>
+                <include name="testEmptyCart"/>
+                <include name="testAddSingleProduct"/>
+                <include name="testAddMultipleProducts"/>
+                <include name="testRemoveProduct"/>
+                <include name="testClearCart"/>
+                <include name="testCartPersistsOnRefresh"/>
+                <include name="testCartPersistsOnNavigation"/>
+                <include name="testCartTotalCalculation"/>
+                <include name="testCartItemDetails"/>
+                <include name="testCartQuantityUpdate"/>
+                <include name="testContinueShopping"/>
+                <include name="testCartIconUpdates"/>
+                <include name="testCartAcrossSessions"/>
+                <include name="testEmptyCartMessage"/>
+                <include name="testCartUrlDeepLinking"/>
+                <include name="testCartWithManyItems"/>
+                <include name="testCartPerformance"/>
+                <include name="testCartErrorHandling"/>
+                <include name="testCartProductIntegration"/>
+                <include name="testCartSuiteCompletion"/>
+            </methods>
+        </class>
+    </classes>
+</test>
+
+<listeners>
+    <listener class-name="com.demoblaze.listeners.TestListener"/>
+</listeners>
+</suite>

@@ -1,0 +1,4583 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Demoblaze Automation Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css">.badge-danger { background-color: #dc3545 !important; }</style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Demoblaze Test Results</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Saturday, December 27, 2025, 07:41 AM (WIB)</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testHomePageLoad</p>
+            <p class="text-sm">
+              <span>7:41:00 AM</span> / <span>00:00:08:287</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testHomePageLoad</h5>
+<span class='badge badge-success'>12.27.2025 7:41:00 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:41:09 AM</span>
+<span class='badge badge-default'>00:00:08:287</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_SMOKE_001 - Verify homepage loads</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[homepage]_Screenshot_20251227_074100.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[homepage]_Screenshot_20251227_074100.png">
+    <div class="title">[homepage] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testHomePageLoad_Success_20251227_074101.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testHomePageLoad_Success_20251227_074101.png">
+    <div class="title">testHomePageLoad_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:41:00 AM</td>
+        <td>
+          [TC_GENERIC] Starting homepage test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:41:00 AM</td>
+        <td>
+          [TC_GENERIC] Title should not be empty
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:41:00 AM</td>
+        <td>
+          [TC_GENERIC] URL should contain demoblaze
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:41:00 AM</td>
+        <td>
+          [TC_GENERIC] Homepage loaded successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:41:01 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:41:09 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testProductCategories</p>
+            <p class="text-sm">
+              <span>7:41:09 AM</span> / <span>00:00:08:352</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testProductCategories</h5>
+<span class='badge badge-success'>12.27.2025 7:41:09 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:41:17 AM</span>
+<span class='badge badge-default'>00:00:08:352</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_SMOKE_002 - Verify product categories exist</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[product_listing]_Screenshot_20251227_074109.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[product_listing]_Screenshot_20251227_074109.png">
+    <div class="title">[product_listing] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductCategories_Success_20251227_074109.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductCategories_Success_20251227_074109.png">
+    <div class="title">testProductCategories_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:41:09 AM</td>
+        <td>
+          [TC_GENERIC] Testing product categories
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:41:09 AM</td>
+        <td>
+          [TC_GENERIC] Checking if categories are clickable
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:41:09 AM</td>
+        <td>
+          [TC_GENERIC] Should have at least one product
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:41:09 AM</td>
+        <td>
+          [TC_GENERIC] Found 9 products
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:41:09 AM</td>
+        <td>
+          [TC_GENERIC] Product available: Samsung galaxy s6
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:41:09 AM</td>
+        <td>
+          [TC_GENERIC] Product available: Nokia lumia 1520
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:41:09 AM</td>
+        <td>
+          [TC_GENERIC] Product available: Nexus 6
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:41:09 AM</td>
+        <td>
+          [TC_GENERIC] Product categories verified
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:41:09 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:41:17 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testNavigation</p>
+            <p class="text-sm">
+              <span>7:41:17 AM</span> / <span>00:00:17:630</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testNavigation</h5>
+<span class='badge badge-success'>12.27.2025 7:41:17 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:41:35 AM</span>
+<span class='badge badge-default'>00:00:17:630</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_SMOKE_003 - Verify navigation works</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[cart_page]_Screenshot_20251227_074120.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[cart_page]_Screenshot_20251227_074120.png">
+    <div class="title">[cart_page] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testNavigation_Success_20251227_074125.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testNavigation_Success_20251227_074125.png">
+    <div class="title">testNavigation_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:41:17 AM</td>
+        <td>
+          [TC_GENERIC] Testing navigation
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:41:17 AM</td>
+        <td>
+          [TC_GENERIC] Opening cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:41:20 AM</td>
+        <td>
+          [TC_GENERIC] Should be on cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:41:20 AM</td>
+        <td>
+          [TC_GENERIC] Cart navigation works
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:41:25 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:41:35 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testProductSelection</p>
+            <p class="text-sm">
+              <span>7:41:35 AM</span> / <span>00:00:15:681</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testProductSelection</h5>
+<span class='badge badge-success'>12.27.2025 7:41:35 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:41:50 AM</span>
+<span class='badge badge-default'>00:00:15:681</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_SMOKE_004 - Verify product selection</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[product_detail]_Screenshot_20251227_074139.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[product_detail]_Screenshot_20251227_074139.png">
+    <div class="title">[product_detail] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductSelection_Success_20251227_074141.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductSelection_Success_20251227_074141.png">
+    <div class="title">testProductSelection_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:41:35 AM</td>
+        <td>
+          [TC_GENERIC] Testing product selection
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:41:35 AM</td>
+        <td>
+          [TC_GENERIC] Selecting product: Samsung galaxy s6
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:41:39 AM</td>
+        <td>
+          [TC_GENERIC] Should be on product detail page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:41:39 AM</td>
+        <td>
+          [TC_GENERIC] Product selection works: Samsung galaxy s6
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:41:41 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:41:50 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testPageElements</p>
+            <p class="text-sm">
+              <span>7:41:50 AM</span> / <span>00:00:08:412</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testPageElements</h5>
+<span class='badge badge-success'>12.27.2025 7:41:50 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:41:59 AM</span>
+<span class='badge badge-default'>00:00:08:412</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_SMOKE_005 - Verify page elements exist</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[page_elements]_Screenshot_20251227_074150.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[page_elements]_Screenshot_20251227_074150.png">
+    <div class="title">[page_elements] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testPageElements_Success_20251227_074151.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testPageElements_Success_20251227_074151.png">
+    <div class="title">testPageElements_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:41:50 AM</td>
+        <td>
+          [TC_GENERIC] Testing page elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:41:50 AM</td>
+        <td>
+          [TC_GENERIC] Navbar should exist
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:41:50 AM</td>
+        <td>
+          [TC_GENERIC] Footer should exist
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:41:50 AM</td>
+        <td>
+          [TC_GENERIC] Page elements verified
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:41:51 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:41:59 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testSmokeCompletion</p>
+            <p class="text-sm">
+              <span>7:41:59 AM</span> / <span>00:00:09:355</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testSmokeCompletion</h5>
+<span class='badge badge-success'>12.27.2025 7:41:59 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:42:08 AM</span>
+<span class='badge badge-default'>00:00:09:355</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_SMOKE_006 - Final smoke test completion</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[smoke_tests_complete]_Screenshot_20251227_074159.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[smoke_tests_complete]_Screenshot_20251227_074159.png">
+    <div class="title">[smoke_tests_complete] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testSmokeCompletion_Success_20251227_074159.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testSmokeCompletion_Success_20251227_074159.png">
+    <div class="title">testSmokeCompletion_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:41:59 AM</td>
+        <td>
+          [TC_GENERIC] Final smoke test - verifying website is accessible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:41:59 AM</td>
+        <td>
+          [TC_GENERIC] Title should exist
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:41:59 AM</td>
+        <td>
+          [TC_GENERIC] URL should exist
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:41:59 AM</td>
+        <td>
+          [TC_GENERIC] ✅ ALL SMOKE TESTS COMPLETED SUCCESSFULLY!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:41:59 AM</td>
+        <td>
+          [TC_GENERIC] Title: STORE
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:41:59 AM</td>
+        <td>
+          [TC_GENERIC] URL: https://www.demoblaze.com/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:41:59 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:42:08 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testAllProductsListed</p>
+            <p class="text-sm">
+              <span>7:42:08 AM</span> / <span>00:00:10:025</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testAllProductsListed</h5>
+<span class='badge badge-success'>12.27.2025 7:42:08 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:42:18 AM</span>
+<span class='badge badge-default'>00:00:10:025</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_PROD_001 - Verify all products are listed</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testAllProductsListed_Failure_20251227_074210.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testAllProductsListed_Failure_20251227_074210.png">
+    <div class="title">testAllProductsListed_Failure</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:42:08 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_PROD_001 - All Products Listing Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:42:10 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_001: Found 9 products on homepage
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>7:42:10 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_001: Should display at least 15 products
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>7:42:10 AM</td>
+        <td>
+          Test failed: [TC_GENERIC] TC_PROD_001: Should display at least 15 products
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>7:42:10 AM</td>
+        <td>
+          <textarea readonly class="code-block">java.lang.AssertionError: [TC_GENERIC] TC_PROD_001: Should display at least 15 products
+	at com.demoblaze.tests.BaseTest.assertTrue(BaseTest.java:409)
+	at com.demoblaze.tests.BaseTest.assertTrue(BaseTest.java:631)
+	at com.demoblaze.tests.ProductTests.testAllProductsListed(ProductTests.java:78)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</textarea>
+          
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:42:18 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testSamsungS6Details</p>
+            <p class="text-sm">
+              <span>7:42:18 AM</span> / <span>00:00:13:297</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testSamsungS6Details</h5>
+<span class='badge badge-success'>12.27.2025 7:42:18 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:42:31 AM</span>
+<span class='badge badge-default'>00:00:13:297</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_PROD_002 - Verify Samsung Galaxy S6 details</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_002_Samsung_S6_Details]_Screenshot_20251227_074223.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_002_Samsung_S6_Details]_Screenshot_20251227_074223.png">
+    <div class="title">[TC_PROD_002_Samsung_S6_Details] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testSamsungS6Details_Success_20251227_074223.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testSamsungS6Details_Success_20251227_074223.png">
+    <div class="title">testSamsungS6Details_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:42:18 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_PROD_002 - Samsung Galaxy S6 Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:42:18 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_002: Selecting Samsung Galaxy S6
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:42:23 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_002: Product Name: Samsung galaxy s6
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:42:23 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_002: Product Price: $360 *includes tax
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:42:23 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_002: Product should be Samsung
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:42:23 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_002: Price should contain $
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:42:23 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_002: Price should be $360
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:42:23 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_002 PASSED: Samsung Galaxy S6 details verified
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:42:23 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:42:31 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testNokiaLumiaDetails</p>
+            <p class="text-sm">
+              <span>7:42:31 AM</span> / <span>00:00:12:239</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testNokiaLumiaDetails</h5>
+<span class='badge badge-success'>12.27.2025 7:42:31 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:42:44 AM</span>
+<span class='badge badge-default'>00:00:12:239</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_PROD_003 - Verify Nokia Lumia 1520 details</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_003_Nokia_Lumia_Details]_Screenshot_20251227_074236.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_003_Nokia_Lumia_Details]_Screenshot_20251227_074236.png">
+    <div class="title">[TC_PROD_003_Nokia_Lumia_Details] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testNokiaLumiaDetails_Success_20251227_074236.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testNokiaLumiaDetails_Success_20251227_074236.png">
+    <div class="title">testNokiaLumiaDetails_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:42:31 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_PROD_003 - Nokia Lumia 1520 Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:42:32 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_003: Selecting Nokia Lumia 1520
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:42:36 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_003: Product Name: Nokia lumia 1520
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:42:36 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_003: Product Price: $820 *includes tax
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:42:36 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_003: Product should be Nokia
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:42:36 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_003: Price should contain $
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:42:36 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_003: Price should be $820
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:42:36 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_003 PASSED: Nokia Lumia 1520 details verified
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:42:36 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:42:44 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testSonyVaioI5Details</p>
+            <p class="text-sm">
+              <span>7:42:44 AM</span> / <span>00:00:13:486</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testSonyVaioI5Details</h5>
+<span class='badge badge-success'>12.27.2025 7:42:44 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:42:57 AM</span>
+<span class='badge badge-default'>00:00:13:486</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_PROD_004 - Verify Sony Vaio i5 details</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_004_Sony_Vaio_i5_Details]_Screenshot_20251227_074249.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_004_Sony_Vaio_i5_Details]_Screenshot_20251227_074249.png">
+    <div class="title">[TC_PROD_004_Sony_Vaio_i5_Details] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testSonyVaioI5Details_Success_20251227_074249.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testSonyVaioI5Details_Success_20251227_074249.png">
+    <div class="title">testSonyVaioI5Details_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:42:44 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_PROD_004 - Sony Vaio i5 Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:42:44 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_004: Selecting Sony Vaio i5
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:42:49 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_004: Product Name: Sony vaio i5
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:42:49 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_004: Product Price: $790 *includes tax
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:42:49 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_004: Product should be Sony
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:42:49 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_004: Price should contain $
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:42:49 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_004: Price should be $790
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:42:49 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_004 PASSED: Sony Vaio i5 details verified
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:42:49 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:42:57 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testPriceFormatConsistency</p>
+            <p class="text-sm">
+              <span>7:42:57 AM</span> / <span>00:00:36:238</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testPriceFormatConsistency</h5>
+<span class='badge badge-success'>12.27.2025 7:42:57 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:43:33 AM</span>
+<span class='badge badge-default'>00:00:36:238</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_PROD_005 - Verify product price format consistency</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_005_Price_Format]_Screenshot_20251227_074321.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_005_Price_Format]_Screenshot_20251227_074321.png">
+    <div class="title">[TC_PROD_005_Price_Format] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testPriceFormatConsistency_Success_20251227_074321.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testPriceFormatConsistency_Success_20251227_074321.png">
+    <div class="title">testPriceFormatConsistency_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:42:57 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_PROD_005 - Price Format Consistency Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:42:57 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_005: Testing price format for: Samsung galaxy s6
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:43:01 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_005: Price should start with $ for Samsung galaxy s6
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:43:01 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_005: Price should have reasonable length for Samsung galaxy s6
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:43:06 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_005: Testing price format for: Nokia lumia 1520
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:43:10 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_005: Price should start with $ for Nokia lumia 1520
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:43:10 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_005: Price should have reasonable length for Nokia lumia 1520
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:43:13 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_005: Testing price format for: Nexus 6
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:43:18 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_005: Price should start with $ for Nexus 6
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:43:18 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_005: Price should have reasonable length for Nexus 6
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:43:21 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_005 PASSED: Product price format is consistent
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:43:21 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:43:33 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testProductCategoriesFilter</p>
+            <p class="text-sm">
+              <span>7:43:33 AM</span> / <span>00:00:19:278</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testProductCategoriesFilter</h5>
+<span class='badge badge-success'>12.27.2025 7:43:33 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:43:53 AM</span>
+<span class='badge badge-default'>00:00:19:278</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_PROD_006 - Verify product categories filter</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_006_Phones_Category]_Screenshot_20251227_074337.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_006_Phones_Category]_Screenshot_20251227_074337.png">
+    <div class="title">[TC_PROD_006_Phones_Category] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_006_Laptops_Category]_Screenshot_20251227_074341.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_006_Laptops_Category]_Screenshot_20251227_074341.png">
+    <div class="title">[TC_PROD_006_Laptops_Category] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_006_Monitors_Category]_Screenshot_20251227_074344.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_006_Monitors_Category]_Screenshot_20251227_074344.png">
+    <div class="title">[TC_PROD_006_Monitors_Category] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductCategoriesFilter_Success_20251227_074344.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductCategoriesFilter_Success_20251227_074344.png">
+    <div class="title">testProductCategoriesFilter_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:43:33 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_PROD_006 - Product Categories Filter Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:43:34 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_006: Testing Phones category
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:43:37 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_006: Phones category shows 7 products
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:43:37 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_006: Should show at least 7 phones
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:43:37 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_006: Testing Laptops category
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:43:41 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_006: Laptops category shows 6 products
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:43:41 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_006: Should show at least 6 laptops
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:43:41 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_006: Testing Monitors category
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:43:44 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_006: Monitors category shows 2 products
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:43:44 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_006: Should show at least 2 monitors
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:43:44 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_006 PASSED: Product categories filter correctly
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:43:44 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:43:53 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testProductDescriptionExists</p>
+            <p class="text-sm">
+              <span>7:43:53 AM</span> / <span>00:00:34:166</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testProductDescriptionExists</h5>
+<span class='badge badge-success'>12.27.2025 7:43:53 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:44:27 AM</span>
+<span class='badge badge-default'>00:00:34:166</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_PROD_007 - Verify product description exists</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_007_Product_Description]_Screenshot_20251227_074418.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_007_Product_Description]_Screenshot_20251227_074418.png">
+    <div class="title">[TC_PROD_007_Product_Description] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductDescriptionExists_Success_20251227_074418.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductDescriptionExists_Success_20251227_074418.png">
+    <div class="title">testProductDescriptionExists_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:43:53 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_PROD_007 - Product Description Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:43:53 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_007: Checking description for: Samsung galaxy s6
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:43:57 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_007: Product should have description for Samsung galaxy s6
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:44:02 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_007: Checking description for: Nokia lumia 1520
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:44:07 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_007: Product should have description for Nokia lumia 1520
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:44:10 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_007: Checking description for: Nexus 6
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:44:15 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_007: Product should have description for Nexus 6
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:44:18 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_007 PASSED: Product descriptions exist
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:44:18 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:44:27 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testProductImagesDisplayed</p>
+            <p class="text-sm">
+              <span>7:44:27 AM</span> / <span>00:00:39:933</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testProductImagesDisplayed</h5>
+<span class='badge badge-success'>12.27.2025 7:44:27 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:45:07 AM</span>
+<span class='badge badge-default'>00:00:39:933</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_PROD_008 - Verify product images displayed</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_008_Product_Images]_Screenshot_20251227_074458.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_008_Product_Images]_Screenshot_20251227_074458.png">
+    <div class="title">[TC_PROD_008_Product_Images] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductImagesDisplayed_Success_20251227_074458.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductImagesDisplayed_Success_20251227_074458.png">
+    <div class="title">testProductImagesDisplayed_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:44:27 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_PROD_008 - Product Images Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:44:58 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_008: Products should have images
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:44:58 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_008 PASSED: Product images are displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:44:58 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:45:07 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testProductSorting</p>
+            <p class="text-sm">
+              <span>7:45:07 AM</span> / <span>00:00:08:294</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testProductSorting</h5>
+<span class='badge badge-success'>12.27.2025 7:45:07 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:45:15 AM</span>
+<span class='badge badge-default'>00:00:08:294</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_PROD_009 - Verify product sorting</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_009_Product_Sorting]_Screenshot_20251227_074507.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_009_Product_Sorting]_Screenshot_20251227_074507.png">
+    <div class="title">[TC_PROD_009_Product_Sorting] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductSorting_Success_20251227_074507.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductSorting_Success_20251227_074507.png">
+    <div class="title">testProductSorting_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:45:07 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_PROD_009 - Product Sorting Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:45:07 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_009: Sorting functionality appears available
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:45:07 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_009 PASSED: Product sorting check completed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:45:07 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:45:15 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testProductPagination</p>
+            <p class="text-sm">
+              <span>7:45:15 AM</span> / <span>00:00:09:371</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testProductPagination</h5>
+<span class='badge badge-success'>12.27.2025 7:45:15 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:45:24 AM</span>
+<span class='badge badge-default'>00:00:09:371</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_PROD_010 - Verify product pagination</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_010_Pagination]_Screenshot_20251227_074516.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_010_Pagination]_Screenshot_20251227_074516.png">
+    <div class="title">[TC_PROD_010_Pagination] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductPagination_Success_20251227_074516.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductPagination_Success_20251227_074516.png">
+    <div class="title">testProductPagination_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:45:15 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_PROD_010 - Product Pagination Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:45:16 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_010: Pagination controls found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:45:16 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_010 PASSED: Product pagination check completed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:45:16 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:45:24 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testProductAvailability</p>
+            <p class="text-sm">
+              <span>7:45:24 AM</span> / <span>00:00:28:152</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testProductAvailability</h5>
+<span class='badge badge-success'>12.27.2025 7:45:24 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:45:53 AM</span>
+<span class='badge badge-default'>00:00:28:152</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_PROD_011 - Verify product availability</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_011_Product_Availability]_Screenshot_20251227_074545.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_011_Product_Availability]_Screenshot_20251227_074545.png">
+    <div class="title">[TC_PROD_011_Product_Availability] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductAvailability_Success_20251227_074545.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductAvailability_Success_20251227_074545.png">
+    <div class="title">testProductAvailability_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:45:24 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_PROD_011 - Product Availability Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:45:25 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_011: Checking availability for: Samsung galaxy s6
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:45:36 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_011: Checking availability for: Nokia lumia 1520
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:45:45 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_011 PASSED: Products appear to be available (Add to Cart works)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:45:45 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:45:53 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="18"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testProductComparison</p>
+            <p class="text-sm">
+              <span>7:45:53 AM</span> / <span>00:00:08:852</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testProductComparison</h5>
+<span class='badge badge-success'>12.27.2025 7:45:53 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:46:01 AM</span>
+<span class='badge badge-default'>00:00:08:852</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_PROD_012 - Verify product comparison</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_012_Product_Comparison]_Screenshot_20251227_074553.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_012_Product_Comparison]_Screenshot_20251227_074553.png">
+    <div class="title">[TC_PROD_012_Product_Comparison] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductComparison_Success_20251227_074553.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductComparison_Success_20251227_074553.png">
+    <div class="title">testProductComparison_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:45:53 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_PROD_012 - Product Comparison Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:45:53 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_012: No comparison feature (may be normal)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:45:53 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_012 PASSED: Product comparison check completed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:45:53 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:46:01 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="19"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testProductReviews</p>
+            <p class="text-sm">
+              <span>7:46:01 AM</span> / <span>00:00:45:877</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testProductReviews</h5>
+<span class='badge badge-success'>12.27.2025 7:46:01 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:46:47 AM</span>
+<span class='badge badge-default'>00:00:45:877</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_PROD_013 - Verify product reviews/ratings</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_013_Product_Reviews]_Screenshot_20251227_074637.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_013_Product_Reviews]_Screenshot_20251227_074637.png">
+    <div class="title">[TC_PROD_013_Product_Reviews] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductReviews_Success_20251227_074637.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductReviews_Success_20251227_074637.png">
+    <div class="title">testProductReviews_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:46:01 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_PROD_013 - Product Reviews Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:46:33 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_013: Checking for reviews on a product page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:46:37 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_013: Review/rating system found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:46:37 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_013 PASSED: Product reviews check completed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:46:37 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:46:47 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="20"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testRelatedProducts</p>
+            <p class="text-sm">
+              <span>7:46:47 AM</span> / <span>00:00:12:133</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testRelatedProducts</h5>
+<span class='badge badge-success'>12.27.2025 7:46:47 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:46:59 AM</span>
+<span class='badge badge-default'>00:00:12:133</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_PROD_014 - Verify related products</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_014_Related_Products]_Screenshot_20251227_074651.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_014_Related_Products]_Screenshot_20251227_074651.png">
+    <div class="title">[TC_PROD_014_Related_Products] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testRelatedProducts_Success_20251227_074651.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testRelatedProducts_Success_20251227_074651.png">
+    <div class="title">testRelatedProducts_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:46:47 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_PROD_014 - Related Products Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:46:51 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_014: No related products (may be normal)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:46:51 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_014 PASSED: Related products check completed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:46:51 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:46:59 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="21"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testProductSpecifications</p>
+            <p class="text-sm">
+              <span>7:46:59 AM</span> / <span>00:00:12:345</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testProductSpecifications</h5>
+<span class='badge badge-success'>12.27.2025 7:46:59 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:47:12 AM</span>
+<span class='badge badge-default'>00:00:12:345</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_PROD_015 - Verify product specifications</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_015_Product_Specs]_Screenshot_20251227_074704.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_015_Product_Specs]_Screenshot_20251227_074704.png">
+    <div class="title">[TC_PROD_015_Product_Specs] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductSpecifications_Success_20251227_074704.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductSpecifications_Success_20251227_074704.png">
+    <div class="title">testProductSpecifications_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:46:59 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_PROD_015 - Product Specifications Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:47:04 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_015: Product should have detailed specifications
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:47:04 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_015: Should have technical specifications
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:47:04 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_015 PASSED: Product specifications verified
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:47:04 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:47:12 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="22"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testProductShareFeatures</p>
+            <p class="text-sm">
+              <span>7:47:12 AM</span> / <span>00:00:12:093</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testProductShareFeatures</h5>
+<span class='badge badge-success'>12.27.2025 7:47:12 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:47:24 AM</span>
+<span class='badge badge-default'>00:00:12:093</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_PROD_016 - Verify product share features</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_016_Product_Share]_Screenshot_20251227_074716.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_016_Product_Share]_Screenshot_20251227_074716.png">
+    <div class="title">[TC_PROD_016_Product_Share] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductShareFeatures_Success_20251227_074716.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductShareFeatures_Success_20251227_074716.png">
+    <div class="title">testProductShareFeatures_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:47:12 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_PROD_016 - Product Share Features Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:47:16 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_016: No sharing features (may be normal)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:47:16 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_016 PASSED: Product share features check completed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:47:16 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:47:24 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="23"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testProductBreadcrumb</p>
+            <p class="text-sm">
+              <span>7:47:24 AM</span> / <span>00:00:16:259</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testProductBreadcrumb</h5>
+<span class='badge badge-success'>12.27.2025 7:47:24 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:47:40 AM</span>
+<span class='badge badge-default'>00:00:16:259</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_PROD_017 - Verify product breadcrumb navigation</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_017_Breadcrumb_Nav]_Screenshot_20251227_074732.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_017_Breadcrumb_Nav]_Screenshot_20251227_074732.png">
+    <div class="title">[TC_PROD_017_Breadcrumb_Nav] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductBreadcrumb_Success_20251227_074732.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductBreadcrumb_Success_20251227_074732.png">
+    <div class="title">testProductBreadcrumb_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:47:24 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_PROD_017 - Product Breadcrumb Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:47:28 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_017: URL should indicate product page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:47:32 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_017: Should return to homepage
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:47:32 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_017 PASSED: Product breadcrumb navigation works
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:47:32 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:47:40 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="24"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testProductPagePerformance</p>
+            <p class="text-sm">
+              <span>7:47:40 AM</span> / <span>00:00:12:168</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testProductPagePerformance</h5>
+<span class='badge badge-success'>12.27.2025 7:47:40 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:47:52 AM</span>
+<span class='badge badge-default'>00:00:12:168</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_PROD_018 - Verify product page load performance</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_018_Performance]_Screenshot_20251227_074744.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_018_Performance]_Screenshot_20251227_074744.png">
+    <div class="title">[TC_PROD_018_Performance] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductPagePerformance_Success_20251227_074744.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductPagePerformance_Success_20251227_074744.png">
+    <div class="title">testProductPagePerformance_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:47:40 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_PROD_018 - Product Page Performance Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:47:44 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_018: Product page loaded in 3811ms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:47:44 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_018: Product page should load in under 30 seconds
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:47:44 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_018 PASSED: Product page load performance acceptable
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:47:44 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:47:52 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="25"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testMultipleProductViews</p>
+            <p class="text-sm">
+              <span>7:47:52 AM</span> / <span>00:00:30:680</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testMultipleProductViews</h5>
+<span class='badge badge-success'>12.27.2025 7:47:52 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:48:23 AM</span>
+<span class='badge badge-default'>00:00:30:680</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_PROD_019 - Verify multiple product views</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_019_Product_1]_Screenshot_20251227_074757.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_019_Product_1]_Screenshot_20251227_074757.png">
+    <div class="title">[TC_PROD_019_Product_1] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_019_Product_2]_Screenshot_20251227_074806.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_019_Product_2]_Screenshot_20251227_074806.png">
+    <div class="title">[TC_PROD_019_Product_2] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_019_Product_3]_Screenshot_20251227_074815.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_019_Product_3]_Screenshot_20251227_074815.png">
+    <div class="title">[TC_PROD_019_Product_3] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testMultipleProductViews_Success_20251227_074815.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testMultipleProductViews_Success_20251227_074815.png">
+    <div class="title">testMultipleProductViews_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:47:52 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_PROD_019 - Multiple Product Views Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:47:53 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_019: Viewing product #1: Samsung galaxy s6
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:47:57 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_019: Should display correct product
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:48:02 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_019: Viewing product #2: Nokia lumia 1520
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:48:06 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_019: Should display correct product
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:48:11 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_019: Viewing product #3: Nexus 6
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:48:15 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_019: Should display correct product
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:48:15 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_019 PASSED: Multiple product views work correctly
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:48:15 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:48:23 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="26"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testProductSuiteCompletion</p>
+            <p class="text-sm">
+              <span>7:48:23 AM</span> / <span>00:00:09:677</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testProductSuiteCompletion</h5>
+<span class='badge badge-success'>12.27.2025 7:48:23 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:48:33 AM</span>
+<span class='badge badge-default'>00:00:09:677</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_PROD_020 - Product test suite completion</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_020_Suite_Complete]_Screenshot_20251227_074824.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_PROD_020_Suite_Complete]_Screenshot_20251227_074824.png">
+    <div class="title">[TC_PROD_020_Suite_Complete] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductSuiteCompletion_Success_20251227_074824.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testProductSuiteCompletion_Success_20251227_074824.png">
+    <div class="title">testProductSuiteCompletion_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:48:23 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_PROD_020 - Product Test Suite Completion
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:48:24 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_020: Final product count: 9
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:48:24 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_020: Products should still be accessible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:48:24 AM</td>
+        <td>
+          [TC_GENERIC] TC_PROD_020 PASSED: Product test suite completed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:48:24 AM</td>
+        <td>
+          [TC_GENERIC] =========================================
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:48:24 AM</td>
+        <td>
+          [TC_GENERIC] 🛍️  ALL 20 PRODUCT TESTS COMPLETED SUCCESSFULLY!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:48:24 AM</td>
+        <td>
+          [TC_GENERIC] =========================================
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:48:24 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:48:33 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="27"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testEmptyCart</p>
+            <p class="text-sm">
+              <span>7:48:33 AM</span> / <span>00:00:34:166</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testEmptyCart</h5>
+<span class='badge badge-success'>12.27.2025 7:48:33 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:49:07 AM</span>
+<span class='badge badge-default'>00:00:34:166</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_CART_001 - Verify empty cart state</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_001_Empty_Cart]_Screenshot_20251227_074856.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_001_Empty_Cart]_Screenshot_20251227_074856.png">
+    <div class="title">[TC_CART_001_Empty_Cart] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testEmptyCart_Success_20251227_074856.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testEmptyCart_Success_20251227_074856.png">
+    <div class="title">testEmptyCart_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:48:33 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_CART_001 - Empty Cart Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:48:33 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_001: Opening empty cart
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:48:56 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_001: Cart items: 0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:48:56 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_001: Cart should be accessible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:48:56 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_001 PASSED: Empty cart state verified
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:48:56 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:49:07 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="28"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testAddSingleProduct</p>
+            <p class="text-sm">
+              <span>7:49:07 AM</span> / <span>00:00:22:238</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testAddSingleProduct</h5>
+<span class='badge badge-success'>12.27.2025 7:49:07 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:49:29 AM</span>
+<span class='badge badge-default'>00:00:22:238</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=28</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_CART_002 - Add single product to cart</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_002_Single_Product_Added]_Screenshot_20251227_074919.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_002_Single_Product_Added]_Screenshot_20251227_074919.png">
+    <div class="title">[TC_CART_002_Single_Product_Added] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testAddSingleProduct_Success_20251227_074919.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testAddSingleProduct_Success_20251227_074919.png">
+    <div class="title">testAddSingleProduct_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:49:07 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_CART_002 - Add Single Product Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:49:13 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_002: Added Samsung galaxy s6 to cart
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:19 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_002: Product should be in cart
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:19 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_002: Cart should have at least 1 item
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:19 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_002 PASSED: Single product added to cart successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:19 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:49:29 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="29"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testAddMultipleProducts</p>
+            <p class="text-sm">
+              <span>7:49:29 AM</span> / <span>00:00:35:468</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testAddMultipleProducts</h5>
+<span class='badge badge-success'>12.27.2025 7:49:29 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:50:05 AM</span>
+<span class='badge badge-default'>00:00:35:468</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_CART_003 - Add multiple products to cart</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_003_Multiple_Products]_Screenshot_20251227_074956.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_003_Multiple_Products]_Screenshot_20251227_074956.png">
+    <div class="title">[TC_CART_003_Multiple_Products] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testAddMultipleProducts_Success_20251227_074956.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testAddMultipleProducts_Success_20251227_074956.png">
+    <div class="title">testAddMultipleProducts_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:49:29 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_CART_003 - Add Multiple Products Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:49:36 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_003: Added Samsung galaxy s6
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:49:44 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_003: Added Nokia lumia 1520
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:49:51 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_003: Added Sony vaio i5
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:49:56 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_003: Total cart items: 3
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:56 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_003: Should have at least 3 items
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:56 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_003: Should have Samsung galaxy s6
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:56 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_003: Should have Nokia lumia 1520
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:56 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_003: Should have Sony vaio i5
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:56 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_003 PASSED: Multiple products added successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:56 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:50:05 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="30"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testRemoveProduct</p>
+            <p class="text-sm">
+              <span>7:50:05 AM</span> / <span>00:00:41:574</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testRemoveProduct</h5>
+<span class='badge badge-success'>12.27.2025 7:50:05 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:50:46 AM</span>
+<span class='badge badge-default'>00:00:41:574</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=30</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_CART_004 - Remove product from cart</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_004_Product_Removed]_Screenshot_20251227_075038.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_004_Product_Removed]_Screenshot_20251227_075038.png">
+    <div class="title">[TC_CART_004_Product_Removed] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testRemoveProduct_Success_20251227_075038.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testRemoveProduct_Success_20251227_075038.png">
+    <div class="title">testRemoveProduct_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:50:05 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_CART_004 - Remove Product Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:50:15 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_004: Initial cart items: 1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:50:38 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_004: Final cart items: 0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:50:38 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_004: Item count should decrease after removal
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:50:38 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_004 PASSED: Product removed from cart successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:50:38 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:50:46 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="31"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testClearCart</p>
+            <p class="text-sm">
+              <span>7:50:46 AM</span> / <span>00:01:27:823</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testClearCart</h5>
+<span class='badge badge-success'>12.27.2025 7:50:46 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:52:14 AM</span>
+<span class='badge badge-default'>00:01:27:823</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=31</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_CART_005 - Clear entire cart</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_005_Cart_Cleared]_Screenshot_20251227_075203.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_005_Cart_Cleared]_Screenshot_20251227_075203.png">
+    <div class="title">[TC_CART_005_Cart_Cleared] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testClearCart_Success_20251227_075204.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testClearCart_Success_20251227_075204.png">
+    <div class="title">testClearCart_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:50:46 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_CART_005 - Clear Cart Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:50:46 AM</td>
+        <td>
+          [TC_GENERIC] Adding multiple test products to cart
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:51:12 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_005: Initial items: 1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:52:03 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_005: Final items: 0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:52:03 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_005: Cart should be empty after clearing
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:52:04 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_005 PASSED: Cart cleared successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:52:04 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:52:14 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="32"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCartPersistsOnRefresh</p>
+            <p class="text-sm">
+              <span>7:52:14 AM</span> / <span>00:00:23:071</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCartPersistsOnRefresh</h5>
+<span class='badge badge-success'>12.27.2025 7:52:14 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:52:37 AM</span>
+<span class='badge badge-default'>00:00:23:071</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=32</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_CART_006 - Verify cart persists on refresh</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_006_After_Refresh]_Screenshot_20251227_075228.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_006_After_Refresh]_Screenshot_20251227_075228.png">
+    <div class="title">[TC_CART_006_After_Refresh] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testCartPersistsOnRefresh_Success_20251227_075228.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testCartPersistsOnRefresh_Success_20251227_075228.png">
+    <div class="title">testCartPersistsOnRefresh_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:52:14 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_CART_006 - Cart Persistence Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:52:24 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_006: Items before refresh: 1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:52:28 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_006: Items after refresh: 1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:52:28 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_006: Cart should still be accessible after refresh
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:52:28 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_006 PASSED: Cart persists on page refresh
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:52:28 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:52:37 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="33"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCartPersistsOnNavigation</p>
+            <p class="text-sm">
+              <span>7:52:37 AM</span> / <span>00:00:21:891</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCartPersistsOnNavigation</h5>
+<span class='badge badge-success'>12.27.2025 7:52:37 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:52:59 AM</span>
+<span class='badge badge-default'>00:00:21:891</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=33</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_CART_007 - Verify cart persists on navigation</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_007_Navigation_Persistence]_Screenshot_20251227_075251.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_007_Navigation_Persistence]_Screenshot_20251227_075251.png">
+    <div class="title">[TC_CART_007_Navigation_Persistence] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testCartPersistsOnNavigation_Success_20251227_075251.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testCartPersistsOnNavigation_Success_20251227_075251.png">
+    <div class="title">testCartPersistsOnNavigation_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:52:37 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_CART_007 - Cart Navigation Persistence Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:52:51 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_007: Cart should be accessible after navigation
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:52:51 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_007 PASSED: Cart persists after navigation
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:52:51 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:52:59 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="34"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCartTotalCalculation</p>
+            <p class="text-sm">
+              <span>7:52:59 AM</span> / <span>00:00:47:068</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCartTotalCalculation</h5>
+<span class='badge badge-success'>12.27.2025 7:52:59 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:53:46 AM</span>
+<span class='badge badge-default'>00:00:47:068</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=34</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_CART_008 - Verify cart total calculation</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_008_Total_Calculation]_Screenshot_20251227_075338.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_008_Total_Calculation]_Screenshot_20251227_075338.png">
+    <div class="title">[TC_CART_008_Total_Calculation] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testCartTotalCalculation_Success_20251227_075338.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testCartTotalCalculation_Success_20251227_075338.png">
+    <div class="title">testCartTotalCalculation_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:52:59 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_CART_008 - Cart Total Calculation Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:53:38 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_008: Cart total: 360
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:53:38 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_008: Total should contain numbers
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:53:38 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_008: Total without $ symbol (value: 360)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:53:38 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_008 PASSED: Cart total calculation appears correct
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:53:38 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:53:46 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="35"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCartItemDetails</p>
+            <p class="text-sm">
+              <span>7:53:46 AM</span> / <span>00:00:22:448</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCartItemDetails</h5>
+<span class='badge badge-success'>12.27.2025 7:53:46 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:54:08 AM</span>
+<span class='badge badge-default'>00:00:22:448</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=35</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_CART_009 - Verify cart item details</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_009_Item_Details]_Screenshot_20251227_075358.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_009_Item_Details]_Screenshot_20251227_075358.png">
+    <div class="title">[TC_CART_009_Item_Details] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testCartItemDetails_Success_20251227_075358.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testCartItemDetails_Success_20251227_075358.png">
+    <div class="title">testCartItemDetails_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:53:46 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_CART_009 - Cart Item Details Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:53:57 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_009: Should have items in cart
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:53:57 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_009: Item should have title
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:53:57 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_009: Item should have price
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:53:58 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_009: Cart item - Title: Samsung galaxy s6, Price: 360
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:53:58 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_009 PASSED: Cart item details displayed correctly
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:53:58 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:54:08 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="36"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCartQuantityUpdate</p>
+            <p class="text-sm">
+              <span>7:54:08 AM</span> / <span>00:00:23:150</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCartQuantityUpdate</h5>
+<span class='badge badge-success'>12.27.2025 7:54:08 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:54:32 AM</span>
+<span class='badge badge-default'>00:00:23:150</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=36</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_CART_010 - Verify cart quantity update</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_010_Quantity_Update]_Screenshot_20251227_075421.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_010_Quantity_Update]_Screenshot_20251227_075421.png">
+    <div class="title">[TC_CART_010_Quantity_Update] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testCartQuantityUpdate_Success_20251227_075421.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testCartQuantityUpdate_Success_20251227_075421.png">
+    <div class="title">testCartQuantityUpdate_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:54:08 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_CART_010 - Cart Quantity Update Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:54:21 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_010: No quantity controls (each product added separately)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:54:21 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_010 PASSED: Cart quantity check completed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:54:21 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:54:32 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="37"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testContinueShopping</p>
+            <p class="text-sm">
+              <span>7:54:32 AM</span> / <span>00:00:22:391</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testContinueShopping</h5>
+<span class='badge badge-success'>12.27.2025 7:54:32 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:54:54 AM</span>
+<span class='badge badge-default'>00:00:22:391</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=37</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_CART_011 - Verify continue shopping</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_011_Continue_Shopping]_Screenshot_20251227_075445.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_011_Continue_Shopping]_Screenshot_20251227_075445.png">
+    <div class="title">[TC_CART_011_Continue_Shopping] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testContinueShopping_Success_20251227_075445.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testContinueShopping_Success_20251227_075445.png">
+    <div class="title">testContinueShopping_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:54:32 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_CART_011 - Continue Shopping Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:54:39 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_011: Should navigate away from cart
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:54:45 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_011 PASSED: Continue shopping works correctly
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:54:45 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:54:54 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="38"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCartIconUpdates</p>
+            <p class="text-sm">
+              <span>7:54:54 AM</span> / <span>00:00:47:801</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCartIconUpdates</h5>
+<span class='badge badge-success'>12.27.2025 7:54:54 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:55:42 AM</span>
+<span class='badge badge-default'>00:00:47:801</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=38</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_CART_012 - Verify cart icon updates</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_012_Cart_Icon]_Screenshot_20251227_075533.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_012_Cart_Icon]_Screenshot_20251227_075533.png">
+    <div class="title">[TC_CART_012_Cart_Icon] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testCartIconUpdates_Success_20251227_075534.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testCartIconUpdates_Success_20251227_075534.png">
+    <div class="title">testCartIconUpdates_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:54:54 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_CART_012 - Cart Icon Update Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:33 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_012: Cart should have items
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:34 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_012 PASSED: Cart icon/access works after adding items
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:34 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:42 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="39"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCartAcrossSessions</p>
+            <p class="text-sm">
+              <span>7:55:42 AM</span> / <span>00:00:52:762</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCartAcrossSessions</h5>
+<span class='badge badge-success'>12.27.2025 7:55:42 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:56:35 AM</span>
+<span class='badge badge-default'>00:00:52:762</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=39</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_CART_013 - Verify cart across sessions</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_013_Cross_Session]_Screenshot_20251227_075623.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_013_Cross_Session]_Screenshot_20251227_075623.png">
+    <div class="title">[TC_CART_013_Cross_Session] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testCartAcrossSessions_Success_20251227_075623.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testCartAcrossSessions_Success_20251227_075623.png">
+    <div class="title">testCartAcrossSessions_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:42 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_CART_013 - Cross-Session Cart Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:56:23 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_013: Cart should be accessible in session
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:56:23 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_013 PASSED: Cart works in current browser session
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:56:23 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:56:35 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="40"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testEmptyCartMessage</p>
+            <p class="text-sm">
+              <span>7:56:35 AM</span> / <span>00:00:55:951</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testEmptyCartMessage</h5>
+<span class='badge badge-success'>12.27.2025 7:56:35 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:57:31 AM</span>
+<span class='badge badge-default'>00:00:55:951</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=40</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_CART_014 - Verify empty cart message</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_014_Empty_Cart_State]_Screenshot_20251227_075722.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_014_Empty_Cart_State]_Screenshot_20251227_075722.png">
+    <div class="title">[TC_CART_014_Empty_Cart_State] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testEmptyCartMessage_Success_20251227_075722.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testEmptyCartMessage_Success_20251227_075722.png">
+    <div class="title">testEmptyCartMessage_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:56:35 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_CART_014 - Empty Cart Message Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:57:22 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_014: Cart is empty - checking empty state
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:57:22 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_014: No specific empty cart message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:57:22 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_014 PASSED: Empty cart state verified
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:57:22 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:57:31 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="41"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCartUrlDeepLinking</p>
+            <p class="text-sm">
+              <span>7:57:31 AM</span> / <span>00:00:31:933</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCartUrlDeepLinking</h5>
+<span class='badge badge-success'>12.27.2025 7:57:31 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:58:02 AM</span>
+<span class='badge badge-default'>00:00:31:933</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=41</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_CART_015 - Verify cart URL/deep linking</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_015_Direct_URL_Access]_Screenshot_20251227_075754.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_015_Direct_URL_Access]_Screenshot_20251227_075754.png">
+    <div class="title">[TC_CART_015_Direct_URL_Access] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testCartUrlDeepLinking_Success_20251227_075754.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testCartUrlDeepLinking_Success_20251227_075754.png">
+    <div class="title">testCartUrlDeepLinking_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:57:31 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_CART_015 - Cart URL Deep Linking Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:57:34 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_015: Should be on cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:57:54 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_015: Cart items via direct URL: 0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:57:54 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_015: Cart should be accessible via direct URL
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:57:54 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_015 PASSED: Cart accessible via direct URL
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:57:54 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:58:02 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="42"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCartWithManyItems</p>
+            <p class="text-sm">
+              <span>7:58:02 AM</span> / <span>00:00:56:738</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCartWithManyItems</h5>
+<span class='badge badge-success'>12.27.2025 7:58:02 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:58:59 AM</span>
+<span class='badge badge-default'>00:00:56:738</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=42</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_CART_016 - Verify cart with many items</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_016_Many_Items]_Screenshot_20251227_075851.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_016_Many_Items]_Screenshot_20251227_075851.png">
+    <div class="title">[TC_CART_016_Many_Items] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testCartWithManyItems_Success_20251227_075851.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testCartWithManyItems_Success_20251227_075851.png">
+    <div class="title">testCartWithManyItems_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:58:02 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_CART_016 - Many Items Cart Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:58:34 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_016: Added product 1 time(s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:58:39 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_016: Added product 2 time(s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:58:48 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_016: Added product 3 time(s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:58:51 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_016: Total cart items: 3
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:58:51 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_016: Cart should handle multiple items
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:58:51 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_016 PASSED: Cart handles multiple items
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:58:51 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:58:59 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="43"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCartPerformance</p>
+            <p class="text-sm">
+              <span>7:58:59 AM</span> / <span>00:00:34:644</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCartPerformance</h5>
+<span class='badge badge-success'>12.27.2025 7:58:59 AM</span>
+<span class='badge badge-danger'>12.27.2025 7:59:34 AM</span>
+<span class='badge badge-default'>00:00:34:644</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=43</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_CART_017 - Verify cart performance with items</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_017_Performance]_Screenshot_20251227_075923.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_017_Performance]_Screenshot_20251227_075923.png">
+    <div class="title">[TC_CART_017_Performance] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testCartPerformance_Success_20251227_075923.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testCartPerformance_Success_20251227_075923.png">
+    <div class="title">testCartPerformance_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:58:59 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_CART_017 - Cart Performance Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:59:03 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_017: Cart page loaded in 3360ms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:59:23 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_017: Cart has 0 items
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:59:23 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_017: Cart should load in under 15 seconds
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:59:23 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_017 PASSED: Cart performance acceptable
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:59:23 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:59:34 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="44"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCartErrorHandling</p>
+            <p class="text-sm">
+              <span>7:59:34 AM</span> / <span>00:00:33:966</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCartErrorHandling</h5>
+<span class='badge badge-success'>12.27.2025 7:59:34 AM</span>
+<span class='badge badge-danger'>12.27.2025 8:00:08 AM</span>
+<span class='badge badge-default'>00:00:33:966</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=44</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_CART_018 - Verify cart error handling</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_018_Error_Handling]_Screenshot_20251227_080000.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_018_Error_Handling]_Screenshot_20251227_080000.png">
+    <div class="title">[TC_CART_018_Error_Handling] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testCartErrorHandling_Success_20251227_080000.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testCartErrorHandling_Success_20251227_080000.png">
+    <div class="title">testCartErrorHandling_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:59:34 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_CART_018 - Cart Error Handling Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:59:36 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_018: After invalid URL: https://www.demoblaze.com/cart-invalid
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:00:00 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_018: Should recover from invalid URL
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:00:00 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_018 PASSED: Cart error handling works
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:00:00 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:00:08 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="45"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCartProductIntegration</p>
+            <p class="text-sm">
+              <span>8:00:08 AM</span> / <span>00:00:43:459</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCartProductIntegration</h5>
+<span class='badge badge-success'>12.27.2025 8:00:08 AM</span>
+<span class='badge badge-danger'>12.27.2025 8:00:51 AM</span>
+<span class='badge badge-default'>00:00:43:459</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=45</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_CART_019 - Verify cart-product integration</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_019_Integration]_Screenshot_20251227_080038.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_019_Integration]_Screenshot_20251227_080038.png">
+    <div class="title">[TC_CART_019_Integration] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testCartProductIntegration_Success_20251227_080038.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testCartProductIntegration_Success_20251227_080038.png">
+    <div class="title">testCartProductIntegration_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:00:08 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_CART_019 - Cart-Product Integration Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:00:38 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_019: Final cart items: 2
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:00:38 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_019: Integration should work
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:00:38 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_019 PASSED: Cart-product integration works
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:00:38 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:00:51 AM</td>
+        <td>
+          [TC_UTIL_001] Navigated to: https://www.demoblaze.com
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="46"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCartSuiteCompletion</p>
+            <p class="text-sm">
+              <span>8:00:51 AM</span> / <span>00:00:48:763</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCartSuiteCompletion</h5>
+<span class='badge badge-success'>12.27.2025 8:00:51 AM</span>
+<span class='badge badge-danger'>12.27.2025 8:01:40 AM</span>
+<span class='badge badge-default'>00:00:48:763</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=46</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">TC_CART_020 - Cart test suite completion</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_020_Suite_Complete]_Screenshot_20251227_080140.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/[TC_CART_020_Suite_Complete]_Screenshot_20251227_080140.png">
+    <div class="title">[TC_CART_020_Suite_Complete] Screenshot</div>
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testCartSuiteCompletion_Success_20251227_080140.png' src="/home/sikucing/IdeaProjects/demoblaze-super-automation/test-output/screenshots/testCartSuiteCompletion_Success_20251227_080140.png">
+    <div class="title">testCartSuiteCompletion_Success</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:00:51 AM</td>
+        <td>
+          [TC_GENERIC] Starting TC_CART_020 - Cart Test Suite Completion
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:40 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_020: Final cart item count: 0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:01:40 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_020: Cart should be accessible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:01:40 AM</td>
+        <td>
+          [TC_GENERIC] TC_CART_020 PASSED: Cart test suite completed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:40 AM</td>
+        <td>
+          [TC_GENERIC] =========================================
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:40 AM</td>
+        <td>
+          [TC_GENERIC] 🛒 ALL 20 CART TESTS COMPLETED SUCCESSFULLY!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:40 AM</td>
+        <td>
+          [TC_GENERIC] =========================================
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:01:40 AM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">java.lang.AssertionError</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.AssertionError</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>07:42:08 AM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>testAllProductsListed</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Saturday, December 27, 2025, 07:41 AM (WIB)</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Saturday, December 27, 2025, 08:01 AM (WIB)</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>45</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='97%'>
+<b>45</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='2%'><b>1</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='46%'><b>155</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>3</b> events failed,
+<b data-tooltip='%'>172</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"testHomePageLoad":8.287,"testProductCategories":8.352,"testNavigation":17.63,"testProductSelection":15.681,"testPageElements":8.412,"testSmokeCompletion":9.355,"testAllProductsListed":10.025,"testSamsungS6Details":13.297,"testNokiaLumiaDetails":12.239,"testSonyVaioI5Details":13.486,"testPriceFormatConsistency":36.238,"testProductCategoriesFilter":19.278,"testProductDescriptionExists":34.166,"testProductImagesDisplayed":39.933,"testProductSorting":8.294,"testProductPagination":9.371,"testProductAvailability":28.152,"testProductComparison":8.852,"testProductReviews":45.877,"testRelatedProducts":12.133,"testProductSpecifications":12.345,"testProductShareFeatures":12.093,"testProductBreadcrumb":16.259,"testProductPagePerformance":12.168,"testMultipleProductViews":30.68,"testProductSuiteCompletion":9.677,"testEmptyCart":34.166,"testAddSingleProduct":22.238,"testAddMultipleProducts":35.468,"testRemoveProduct":41.574,"testClearCart":87.823,"testCartPersistsOnRefresh":23.071,"testCartPersistsOnNavigation":21.891,"testCartTotalCalculation":47.068,"testCartItemDetails":22.448,"testCartQuantityUpdate":23.15,"testContinueShopping":22.391,"testCartIconUpdates":47.801,"testCartAcrossSessions":52.762,"testEmptyCartMessage":55.951,"testCartUrlDeepLinking":31.933,"testCartWithManyItems":56.738,"testCartPerformance":34.644,"testCartErrorHandling":33.966,"testCartProductIntegration":43.459,"testCartSuiteCompletion":48.763
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>OS</td>
+<td>Linux</td>
+</tr>
+<tr>
+<td>OS Version</td>
+<td>6.1.0-41-amd64</td>
+</tr>
+<tr>
+<td>Java Version</td>
+<td>21.0.6</td>
+</tr>
+<tr>
+<td>User</td>
+<td>sikucing</td>
+</tr>
+<tr>
+<td>Browser</td>
+<td>Chrome</td>
+</tr>
+<tr>
+<td>URL</td>
+<td>https://www.demoblaze.com</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 45,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 155,
+failEvents: 3,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 172
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
